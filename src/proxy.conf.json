@@ -1,0 +1,6 @@
+{
+    "/api": {
+    "target": "http://freeapi.gerasim.in/api/",
+    "secure": false
+    }
+    }

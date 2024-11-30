@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bigbasket_ecommerce_angular": {
+    "big-basket-clone": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/bigbasket_ecommerce_angular",
+            "outputPath": "dist/big-basket-clone",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "bigbasket_ecommerce_angular:build:production"
+              "buildTarget": "big-basket-clone:build:production"
             },
             "development": {
-              "buildTarget": "bigbasket_ecommerce_angular:build:development"
+              "buildTarget": "big-basket-clone:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "bigbasket_ecommerce_angular:build"
+            "buildTarget": "big-basket-clone:build"
           }
         },
         "test": {
